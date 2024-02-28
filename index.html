@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css" href="./Form-validation.css">
+    <title>Form validation</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="content">
+          <div class="logo">
+            <img src="https://svgshare.com/i/_go.svg" alt="" />
+          </div>
+          
+          <div class="image"></div>
+          
+          <div class="text">
+            Start for free & get <br />
+            attractive offers today !
+          </div>  
+        </div>
+        
+     <form id="form">
+     <!--other codes are here -->
+        <div class="social">
+          <div class="title">Get Started</div>
+          <div class="question">
+            Already Have an Account? <br />
+            <span>Sign In</span>
+          </div>
+    
+          <div class="btn"></div>
+        </div> 
+  
+        <div class="btn">
+            <div class="btn-1">
+                <img src="https://img.icons8.com/color/30/000000/google-logo.png" /> 
+               Sign Up
+            </div>
+            
+            <div class="btn-2">
+              <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" />
+               Sign Up
+             </div>
+          </div>
+          <div class="or">Or</div> 
+    
+        <div> 
+            <label for="username"> User Name</label>
+            <i class="fa-solid fa-user"></i>
+            <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Your Name"
+            />
+            <i class="fa-solid fa-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+
+        <div>
+        <label for="email"> Email</label>
+        <i class="fa-solid fa-envelope"></i>
+            <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+            />
+            <i class="fa-solid fa-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+
+        <div>
+        <label for="password"> Password</label>
+            </i><i class="fa-solid fa-lock"></i>
+            <input
+            type="password"
+            name="username"
+            id="password"
+            placeholder="Enter Your password"
+            />
+            <i class="fa-solid fa-exclamation failure-icon"></i>
+            <i class="fa-solid fa-circle-check success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <button id="btn" type="sumbit"> Submit </button>   
+     </form>   
+  </div>
+    <script src="Form-validation.js"></script>
+</body>
+</html>
